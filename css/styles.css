@@ -650,8 +650,21 @@ ul[class] {
   width: 358px;
   height: 50px;
   margin-right: 10px;
-background-color: #2F303A;
+  padding-left: 16px;
+  background-color: #2F303A;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--color-white);
 }
+
 
 .footer-button{
   position: relative;
@@ -916,17 +929,23 @@ background-color: #2F303A;
 
 
 .form-textarea{
+  height:120px ;
   padding: 12px 16px;
   resize: none; 
   cursor: pointer;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .form-input{
+  height: 40px;
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 42px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
   cursor: pointer;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -990,8 +1009,9 @@ color: #757575;
   letter-spacing: 0.06em;
   color: var(--color-white);
 
-  background: #2196F3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  background: #188CE8;
+  border: 0;
   border-radius: 4px;
 }
 
@@ -1022,4 +1042,10 @@ color: #757575;
 
 .agreement{
   padding-left: 5px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+
+  color: #2196F3;
 }
