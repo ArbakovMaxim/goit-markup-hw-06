@@ -716,6 +716,15 @@ ul[class] {
   margin-bottom: 0px;
 }
 
+/* .project{
+  display: flex;
+  flex-basis: calc((100% - 3* 30px) / 3);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+} */
+
 .li-button:not(:last-child) {
   margin-right: 8px;
 }
@@ -723,7 +732,10 @@ ul[class] {
 .list.projects {
   display: flex;
   flex-wrap: wrap;
+  /* flex-basis: calc((100% - 9* 30px) /9); */
   padding-left: 0px;
+/*   margin-right: -30px;
+  margin-bottom: -30px; */
 }
 
 .project {
@@ -770,6 +782,8 @@ ul[class] {
 
 .img-portfolio {
   display: block;
+  max-width: 370px;
+  height: auto;
 }
 
 .img-text {
